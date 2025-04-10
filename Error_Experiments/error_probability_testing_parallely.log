@@ -1,0 +1,86 @@
+nohup: ignoring input
+miller_rabin_with_check.cpp:6:10: fatal error: gmp.h: No such file or directory
+    6 | #include <gmp.h>
+      |          ^~~~~~~
+compilation terminated.
+Running Miller-Rabin test for K=10...
+Completed K=10
+Terminated
+tee: data/logs/miller_rabin_k10.log: Disk quota exceeded
+Running Miller-Rabin test for K=4...
+Completed K=4
+Terminated
+tee: data/logs/miller_rabin_k4.log: Disk quota exceeded
+Running Miller-Rabin test for K=5...
+Completed K=5
+Terminated
+tee: data/logs/miller_rabin_k5.log: Disk quota exceeded
+Running Miller-Rabin test for K=8...
+Completed K=8
+Terminated
+tee: data/logs/miller_rabin_k8.log: Disk quota exceeded
+Running Miller-Rabin test for K=1...
+Completed K=1
+Terminated
+tee: data/logs/miller_rabin_k1.log: Disk quota exceeded
+Running Miller-Rabin test for K=3...
+Completed K=3
+Terminated
+tee: data/logs/miller_rabin_k3.log: Disk quota exceeded
+Running Miller-Rabin test for K=12...
+Completed K=12
+Terminated
+tee: data/logs/miller_rabin_k12.log: Disk quota exceeded
+Running Miller-Rabin test for K=13...
+Completed K=13
+Terminated
+tee: data/logs/miller_rabin_k13.log: Disk quota exceeded
+Running Miller-Rabin test for K=16...
+Completed K=16
+Terminated
+tee: data/logs/miller_rabin_k16.log: Disk quota exceeded
+Running Miller-Rabin test for K=7...
+Completed K=7
+Terminated
+tee: data/logs/miller_rabin_k7.log: Disk quota exceeded
+Running Miller-Rabin test for K=17...
+Completed K=17
+Terminated
+tee: data/logs/miller_rabin_k17.log: Disk quota exceeded
+Running Miller-Rabin test for K=19...
+Completed K=19
+Terminated
+tee: data/logs/miller_rabin_k19.log: Disk quota exceeded
+Running Miller-Rabin test for K=20...
+Completed K=20
+Terminated
+tee: data/logs/miller_rabin_k20.log: Disk quota exceeded
+Running Miller-Rabin test for K=15...
+Completed K=15
+Terminated
+tee: data/logs/miller_rabin_k15.log: Disk quota exceeded
+Running Miller-Rabin test for K=2...
+Completed K=2
+Terminated
+tee: data/logs/miller_rabin_k2.log: Disk quota exceeded
+Running Miller-Rabin test for K=6...
+Completed K=6
+Terminated
+tee: data/logs/miller_rabin_k6.log: Disk quota exceeded
+Running Miller-Rabin test for K=9...
+Completed K=9
+Terminated
+tee: data/logs/miller_rabin_k9.log: Disk quota exceeded
+Running Miller-Rabin test for K=11...
+Completed K=11
+Terminated
+tee: data/logs/miller_rabin_k11.log: Disk quota exceeded
+Running Miller-Rabin test for K=14...
+Completed K=14
+Terminated
+tee: data/logs/miller_rabin_k14.log: Disk quota exceeded
+Running Miller-Rabin test for K=18...
+Completed K=18
+Terminated
+tee: data/logs/miller_rabin_k18.log: Disk quota exceeded
+All tests completed.
