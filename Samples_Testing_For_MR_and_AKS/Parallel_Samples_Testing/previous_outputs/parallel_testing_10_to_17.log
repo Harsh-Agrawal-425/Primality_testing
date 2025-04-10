@@ -1,0 +1,89 @@
+nohup: ignoring input
+Processor 4 | Bit-Length: 14 | Test 1 | Number: 15121
+Processor 3 | Bit-Length: 13 | Test 1 | Number: 4861
+Processor 5 | Bit-Length: 15 | Test 1 | Number: 17959
+Processor 7 | Bit-Length: 17 | Test 1 | Number: 71089
+Processor 0 | Bit-Length: 10 | Test 1 | Number: 607
+Processor 2 | Bit-Length: 12 | Test 1 | Number: 2447
+Processor 0 | Bit-Length: 10 | Test 2 | Number: 607
+Processor 6 | Bit-Length: 16 | Test 1 | Number: 65257
+Processor 1 | Bit-Length: 11 | Test 1 | Number: 1087
+Processor 0 | Bit-Length: 10 | Test 3 | Number: 829
+Processor 1 | Bit-Length: 11 | Test 2 | Number: 1877
+Processor 0 | Bit-Length: 10 | Test 4 | Number: 997
+Processor 1 | Bit-Length: 11 | Test 3 | Number: 1759
+Processor 1 | Bit-Length: 11 | Test 4 | Number: 1987
+Processor 0 | Bit-Length: 10 | Test 5 | Number: 971
+Processor 1 | Bit-Length: 11 | Test 5 | Number: 1559
+Processor 1 | Bit-Length: 11 | Test 6 | Number: 1669
+Processor 0 | Bit-Length: 10 | Test 6 | Number: 577
+Processor 1 | Bit-Length: 11 | Test 7 | Number: 1459
+Processor 0 | Bit-Length: 10 | Test 7 | Number: 881
+Processor 1 | Bit-Length: 11 | Test 8 | Number: 1471
+Processor 1 | Bit-Length: 11 | Test 9 | Number: 1303
+Processor 0 | Bit-Length: 10 | Test 8 | Number: 947
+Processor 1 | Bit-Length: 11 | Test 10 | Number: 1033
+Processor 0 | Bit-Length: 10 | Test 9 | Number: 659
+Processor 1 finished. Results saved to primality_11bits.csv
+Processor 0 | Bit-Length: 10 | Test 10 | Number: 541
+Processor 0 finished. Results saved to primality_10bits.csv
+Processor 2 | Bit-Length: 12 | Test 2 | Number: 3079
+Processor 3 | Bit-Length: 13 | Test 2 | Number: 7159
+Processor 4 | Bit-Length: 14 | Test 2 | Number: 10133
+Processor 2 | Bit-Length: 12 | Test 3 | Number: 3643
+Processor 3 | Bit-Length: 13 | Test 3 | Number: 6833
+Processor 2 | Bit-Length: 12 | Test 4 | Number: 2179
+Processor 4 | Bit-Length: 14 | Test 3 | Number: 10831
+Processor 2 | Bit-Length: 12 | Test 5 | Number: 2647
+Processor 3 | Bit-Length: 13 | Test 4 | Number: 6247
+Processor 5 | Bit-Length: 15 | Test 2 | Number: 29347
+Processor 2 | Bit-Length: 12 | Test 6 | Number: 3833
+Processor 4 | Bit-Length: 14 | Test 4 | Number: 14731
+Processor 3 | Bit-Length: 13 | Test 5 | Number: 5857
+Processor 2 | Bit-Length: 12 | Test 7 | Number: 2749
+Processor 2 | Bit-Length: 12 | Test 8 | Number: 2909
+Processor 5 | Bit-Length: 15 | Test 3 | Number: 30689
+Processor 3 | Bit-Length: 13 | Test 6 | Number: 5591
+Processor 6 | Bit-Length: 16 | Test 2 | Number: 52177
+Processor 2 | Bit-Length: 12 | Test 9 | Number: 2099
+Processor 4 | Bit-Length: 14 | Test 5 | Number: 16069
+Processor 2 | Bit-Length: 12 | Test 10 | Number: 4049
+Processor 3 | Bit-Length: 13 | Test 7 | Number: 8123
+Processor 7 | Bit-Length: 17 | Test 2 | Number: 126023
+Processor 2 finished. Results saved to primality_12bits.csv
+Processor 4 | Bit-Length: 14 | Test 6 | Number: 11467
+Processor 5 | Bit-Length: 15 | Test 4 | Number: 32537
+Processor 3 | Bit-Length: 13 | Test 8 | Number: 6353
+Processor 3 | Bit-Length: 13 | Test 9 | Number: 6337
+Processor 4 | Bit-Length: 14 | Test 7 | Number: 14029
+Processor 3 | Bit-Length: 13 | Test 10 | Number: 5153
+Processor 5 | Bit-Length: 15 | Test 5 | Number: 27791
+Processor 4 | Bit-Length: 14 | Test 8 | Number: 9631
+Processor 6 | Bit-Length: 16 | Test 3 | Number: 35059
+Processor 3 finished. Results saved to primality_13bits.csv
+Processor 4 | Bit-Length: 14 | Test 9 | Number: 12197
+Processor 5 | Bit-Length: 15 | Test 6 | Number: 19603
+Processor 6 | Bit-Length: 16 | Test 4 | Number: 49037
+Processor 4 | Bit-Length: 14 | Test 10 | Number: 14947
+Processor 5 | Bit-Length: 15 | Test 7 | Number: 19013
+Processor 7 | Bit-Length: 17 | Test 3 | Number: 92333
+Processor 4 finished. Results saved to primality_14bits.csv
+Processor 5 | Bit-Length: 15 | Test 8 | Number: 25919
+Processor 5 | Bit-Length: 15 | Test 9 | Number: 18289
+Processor 6 | Bit-Length: 16 | Test 5 | Number: 56989
+Processor 5 | Bit-Length: 15 | Test 10 | Number: 19583
+Processor 5 finished. Results saved to primality_15bits.csv
+Processor 7 | Bit-Length: 17 | Test 4 | Number: 112939
+Processor 6 | Bit-Length: 16 | Test 6 | Number: 51797
+Processor 6 | Bit-Length: 16 | Test 7 | Number: 33623
+Processor 7 | Bit-Length: 17 | Test 5 | Number: 125429
+Processor 6 | Bit-Length: 16 | Test 8 | Number: 63671
+Processor 7 | Bit-Length: 17 | Test 6 | Number: 77447
+Processor 6 | Bit-Length: 16 | Test 9 | Number: 42967
+Processor 6 | Bit-Length: 16 | Test 10 | Number: 42157
+Processor 7 | Bit-Length: 17 | Test 7 | Number: 70379
+Processor 6 finished. Results saved to primality_16bits.csv
+Processor 7 | Bit-Length: 17 | Test 8 | Number: 96787
+Processor 7 | Bit-Length: 17 | Test 9 | Number: 69029
+Processor 7 | Bit-Length: 17 | Test 10 | Number: 85903
+Processor 7 finished. Results saved to primality_17bits.csv

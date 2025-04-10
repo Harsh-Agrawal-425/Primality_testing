@@ -1,0 +1,78 @@
+nohup: ignoring input
+Processor 3 | Bit-Length: 37 | Test 1 | Number: 98520350681
+Processor 2 | Bit-Length: 36 | Test 1 | Number: 49327267027
+Processor 4 | Bit-Length: 38 | Test 1 | Number: 202794378701
+Processor 1 | Bit-Length: 35 | Test 1 | Number: 29097604537
+Processor 6 | Bit-Length: 40 | Test 1 | Number: 1050453698341
+Processor 0 | Bit-Length: 34 | Test 1 | Number: 13320359879
+Processor 5 | Bit-Length: 39 | Test 1 | Number: 347748911231
+Processor 0 | Bit-Length: 34 | Test 2 | Number: 13978789849
+Processor 1 | Bit-Length: 35 | Test 2 | Number: 29041367557
+Processor 2 | Bit-Length: 36 | Test 2 | Number: 47920080391
+Processor 4 | Bit-Length: 38 | Test 2 | Number: 274118062021
+Processor 3 | Bit-Length: 37 | Test 2 | Number: 100858017191
+Processor 5 | Bit-Length: 39 | Test 2 | Number: 432129258637
+Processor 6 | Bit-Length: 40 | Test 2 | Number: 1017503833583
+Processor 0 | Bit-Length: 34 | Test 3 | Number: 15123981827
+Processor 1 | Bit-Length: 35 | Test 3 | Number: 17210912011
+Processor 2 | Bit-Length: 36 | Test 3 | Number: 49450718623
+Processor 4 | Bit-Length: 38 | Test 3 | Number: 164918639077
+Processor 0 | Bit-Length: 34 | Test 4 | Number: 16337720731
+Processor 3 | Bit-Length: 37 | Test 3 | Number: 111362288057
+Processor 1 | Bit-Length: 35 | Test 4 | Number: 24690082393
+Processor 5 | Bit-Length: 39 | Test 3 | Number: 403596722539
+Processor 2 | Bit-Length: 36 | Test 4 | Number: 35237791697
+Processor 6 | Bit-Length: 40 | Test 3 | Number: 718923666953
+Processor 0 | Bit-Length: 34 | Test 5 | Number: 8941666849
+Processor 1 | Bit-Length: 35 | Test 5 | Number: 26693418949
+Processor 4 | Bit-Length: 38 | Test 4 | Number: 151995280903
+Processor 3 | Bit-Length: 37 | Test 4 | Number: 92341005187
+Processor 2 | Bit-Length: 36 | Test 5 | Number: 35687648743
+Processor 0 | Bit-Length: 34 | Test 6 | Number: 11778104081
+Processor 1 | Bit-Length: 35 | Test 6 | Number: 20076234097
+Processor 5 | Bit-Length: 39 | Test 4 | Number: 428214246379
+Processor 6 | Bit-Length: 40 | Test 4 | Number: 559442221691
+Processor 2 | Bit-Length: 36 | Test 6 | Number: 52126464193
+Processor 4 | Bit-Length: 38 | Test 5 | Number: 157835859361
+Processor 0 | Bit-Length: 34 | Test 7 | Number: 13089221333
+Processor 3 | Bit-Length: 37 | Test 5 | Number: 100835361689
+Processor 1 | Bit-Length: 35 | Test 7 | Number: 21021647509
+Processor 2 | Bit-Length: 36 | Test 7 | Number: 56413210501
+Processor 0 | Bit-Length: 34 | Test 8 | Number: 17162330989
+Processor 3 | Bit-Length: 37 | Test 6 | Number: 78625636241
+Processor 4 | Bit-Length: 38 | Test 6 | Number: 266011774913
+Processor 1 | Bit-Length: 35 | Test 8 | Number: 30396304429
+Processor 5 | Bit-Length: 39 | Test 5 | Number: 425000464459
+Processor 0 | Bit-Length: 34 | Test 9 | Number: 16726111273
+Processor 6 | Bit-Length: 40 | Test 5 | Number: 1079615850637
+Processor 2 | Bit-Length: 36 | Test 8 | Number: 55560818581
+Processor 1 | Bit-Length: 35 | Test 9 | Number: 20703462749
+Processor 3 | Bit-Length: 37 | Test 7 | Number: 103956593731
+Processor 0 | Bit-Length: 34 | Test 10 | Number: 12080644309
+Processor 4 | Bit-Length: 38 | Test 7 | Number: 162978210113
+Processor 5 | Bit-Length: 39 | Test 6 | Number: 544932247033
+Processor 1 | Bit-Length: 35 | Test 10 | Number: 29556105263
+Processor 0 finished. Results saved to primality_34bits.csv
+Processor 2 | Bit-Length: 36 | Test 9 | Number: 61530000557
+Processor 6 | Bit-Length: 40 | Test 6 | Number: 1033040900701
+Processor 3 | Bit-Length: 37 | Test 8 | Number: 120732577837
+Processor 4 | Bit-Length: 38 | Test 8 | Number: 259886336447
+Processor 1 finished. Results saved to primality_35bits.csv
+Processor 5 | Bit-Length: 39 | Test 7 | Number: 360206542679
+Processor 2 | Bit-Length: 36 | Test 10 | Number: 51742587887
+Processor 3 | Bit-Length: 37 | Test 9 | Number: 119258338439
+Processor 4 | Bit-Length: 38 | Test 9 | Number: 187651665161
+Processor 6 | Bit-Length: 40 | Test 7 | Number: 652907660551
+Processor 2 finished. Results saved to primality_36bits.csv
+Processor 4 | Bit-Length: 38 | Test 10 | Number: 233394726679
+Processor 3 | Bit-Length: 37 | Test 10 | Number: 91799707781
+Processor 5 | Bit-Length: 39 | Test 8 | Number: 499419435961
+Processor 6 | Bit-Length: 40 | Test 8 | Number: 796160706673
+Processor 4 finished. Results saved to primality_38bits.csv
+Processor 3 finished. Results saved to primality_37bits.csv
+Processor 5 | Bit-Length: 39 | Test 9 | Number: 343305061123
+Processor 6 | Bit-Length: 40 | Test 9 | Number: 839381325869
+Processor 5 | Bit-Length: 39 | Test 10 | Number: 490236730829
+Processor 6 | Bit-Length: 40 | Test 10 | Number: 961856723833
+Processor 5 finished. Results saved to primality_39bits.csv
+Processor 6 finished. Results saved to primality_40bits.csv
