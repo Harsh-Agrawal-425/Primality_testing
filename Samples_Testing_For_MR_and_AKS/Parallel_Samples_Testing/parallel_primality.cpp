@@ -29,7 +29,7 @@ using namespace std;
 using namespace NTL;
 
 ZZ generate_random_prime(int bits) {
-    return GenPrime_ZZ(bits); // Generates a prime number with 'bits' length
+    return GenPrime_ZZ(bits); 
 }
 
 void power_mod_gmp(mpz_t result, const mpz_t base, const mpz_t exponent, const mpz_t modulus)
@@ -134,7 +134,6 @@ bool miller_rabin_test_gmp(const mpz_t n, int k)
     return true;
 }
 
-// Function declarations for AKS
 int step0(ZZ n);
 int step1(ZZ n);
 long step2(ZZ n);
@@ -146,7 +145,6 @@ ZZ  gcd(ZZ m, ZZ n );
 ZZ  order(ZZ  r, ZZ a);
 ZZ phi(ZZ n);
 
-// Function to count bits in a number
 int count_bits(const string &number_str)
 {
     ZZ num(INIT_VAL, number_str.c_str());
