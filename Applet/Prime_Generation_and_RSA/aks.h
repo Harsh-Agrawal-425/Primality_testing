@@ -1,6 +1,6 @@
 /////////////////////////////////////////////////////////
 //
-// aks.cpp
+// aks.h
 //
 // The following C++ program uses the AKS algorithm
 // to compute whether or not a given positive
