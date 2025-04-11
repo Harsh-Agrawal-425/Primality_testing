@@ -13,7 +13,7 @@ using namespace std;
 
 // mutex file_mutex; // Ensures thread-safe writing
 
-// Load prime numbers into a set
+// Loading prime numbers into a set
 unordered_set<unsigned long long> load_prime_numbers(const string &filename) {
     unordered_set<unsigned long long> prime_set;
     ifstream file(filename);
@@ -99,14 +99,14 @@ public:
     void run_test_with_conflict_check(const string &primes_file, const string &log_file, int k) {
         unordered_set<unsigned long long> prime_set = load_prime_numbers(primes_file);
         
-        // Open file once (append mode) and use mutex for thread safety
+        // Opening file once (in the append mode) and use mutex for thread safety
         ofstream outfile(log_file, ios::app);
         if (!outfile) {
             cerr << "Error: Could not open log file" << endl;
             return;
         }
 
-        // Write CSV header if the file is empty
+        // Writing the CSV header if the file is empty currently
         if (outfile.tellp() == 0) {
             outfile << "Timestamp,Number,Time_Taken,Actual,Predicted\n";
         }
@@ -124,7 +124,7 @@ public:
                 auto now = chrono::system_clock::now();
                 auto timestamp = chrono::system_clock::to_time_t(now);
 
-                // lock_guard<mutex> lock(file_mutex); // Prevent concurrent writes
+                // lock_guard<mutex> lock(file_mutex); // Preventing concurrent writes
                 outfile << put_time(localtime(&timestamp), "%Y-%m-%d %H:%M:%S")
                         << "," << n
                         << "," << time_taken
