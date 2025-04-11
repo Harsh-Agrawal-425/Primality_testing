@@ -1,10 +1,10 @@
-# 🔐 Primality Testing Applet
+#  Primality Testing Applet
 
 This project visually compares the **AKS** and **Miller-Rabin** primality tests using a **Java Applet** interface. It also demonstrates **RSA key generation** using the primes produced by each algorithm.
 
-## ⚙️ Build & Run Instructions
+## Build & Run Instructions
 
-### ✅ Prerequisites
+### Prerequisites
 
 Ensure you have the following installed:
 
@@ -18,7 +18,7 @@ sudo apt install g++ libgmp-dev libntl-dev default-jdk
 
 ---
 
-### 🔨 Compilation Steps
+###Compilation Steps
 
 Go inside applet directory and run the following command
 ./run.sh
