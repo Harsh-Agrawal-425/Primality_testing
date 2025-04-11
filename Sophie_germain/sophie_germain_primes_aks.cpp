@@ -14,7 +14,6 @@
 using namespace std;
 using namespace NTL;
 
-// Function declarations for AKS
 int step0(ZZ n);
 int step1(ZZ n);
 long step2(ZZ n);
@@ -26,7 +25,6 @@ ZZ gcd(ZZ m, long n);
 ZZ order(ZZ a, long r);
 ZZ phi(long x);
 
-// Main AKS primality test function
 int is_prime_deterministic(ZZ n) {
     int k;
     long r;
@@ -42,7 +40,6 @@ int is_prime_deterministic(ZZ n) {
     return step6();
 }
 
-// Extra functions
 ZZ gcd(ZZ m, long n) {
     ZZ z = n + ZZ(0);
     if (z < m) swap(z, m);
@@ -77,7 +74,6 @@ ZZ phi(long x) {
     return ph;
 }
 
-// Steps of AKS
 int step0(ZZ n) {
     long p;
     PrimeSeq s;
@@ -167,7 +163,7 @@ int main() {
         std::ofstream outfile("sophie_germain_primes_aks.csv");
         outfile << "Start_Timestamp,End_Timestamp,Prime,Bit_Length_Prime,2i+1,Bit_Length_2i+1\n";
 	const unsigned long long TIME_LIMIT = 13549;
-        const unsigned long long LIMIT = 500; // i such that 2*i+1 <= 1e8
+        const unsigned long long LIMIT = 500; 
 	auto init_start = std::chrono::system_clock::now();
 	for (unsigned long long i = 2; i <= LIMIT; ++i) {
 	    auto now = std::chrono::system_clock::now();
