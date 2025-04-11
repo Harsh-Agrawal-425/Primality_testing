@@ -2,8 +2,6 @@
 //
 // aks.cpp
 //
-// Max Bennett, December 20, 2013
-//
 // The following C++ program uses the AKS algorithm
 // to compute whether or not a given positive
 // integer is prime or not. 
