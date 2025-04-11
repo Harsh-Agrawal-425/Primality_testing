@@ -97,7 +97,7 @@ int main() {
         std::cout << "Testing bit length: " << bits << std::endl;
         for (int i = 0; i < 20; ++i) {
             mpz_urandomb(rand_num, rstate, bits);
-            mpz_nextprime(prime, rand_num);  // ensure it's prime
+            mpz_nextprime(prime, rand_num); 
 
             auto start = std::chrono::high_resolution_clock::now();
             tester.is_probably_prime(prime, 40);
