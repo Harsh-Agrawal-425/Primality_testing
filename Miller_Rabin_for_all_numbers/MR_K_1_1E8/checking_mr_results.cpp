@@ -6,7 +6,6 @@
 
 using namespace std;
 
-// Function to load prime numbers from the text file into an unordered set
 unordered_set<int> load_prime_numbers(const string &filename) {
     unordered_set<int> prime_set;
     ifstream file(filename);
@@ -34,7 +33,7 @@ int main() {
     }
     
     string line;
-    getline(file, line); // Skip header line
+    getline(file, line);
     
     int incorrect_count = 0;
     int line_count = 0;
