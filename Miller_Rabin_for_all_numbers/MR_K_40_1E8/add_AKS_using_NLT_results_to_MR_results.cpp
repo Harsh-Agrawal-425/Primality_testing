@@ -24,7 +24,6 @@
 using namespace std;
 using namespace NTL;
 
-// Function declarations for AKS
 int step0(ZZ n);
 int step1(ZZ n);
 long step2(ZZ n);
@@ -36,17 +35,15 @@ ZZ  gcd(ZZ m, ZZ n );
 ZZ  order(ZZ  r, ZZ a);
 ZZ phi(ZZ n);
 
-// Function to count bits in a number
 int count_bits(const string &number_str)
 {
     ZZ num(INIT_VAL, number_str.c_str());
     return NumBits(num);
 }
 
-// Main AKS primality test function
 int is_prime_deterministic(ZZ n){
-    int k;  // k is the truth value
-    long r; // r is for step 2
+    int k;  
+    long r; 
     
     k = step0(n);
     if(k){
@@ -218,7 +215,7 @@ int main(int argc, char *argv[])
 ZZ gcd( ZZ m, long n ){
     ZZ k, z;
     z = 0;
-    z = n+z; // easiest way to promote n to ZZ.
+    z = n+z; 
     if (z<m) {
         swap(z,m);
     }
@@ -242,7 +239,7 @@ ZZ order(ZZ a, long r){
     o = 1;
     z = 1;
     k = a;
-    z = r + z; // promoting r to type ZZ
+    z = r + z;
 
     while(k!=1){
         k*=a; k%=z; o++;
@@ -262,7 +259,7 @@ ZZ order(ZZ a, long r){
 ZZ phi(long x){
 
     ZZ n, ph,p; ph = 1;
-    n = 0; n = n + x; // promoting x to type ZZ
+    n = 0; n = n + x; 
 
     int k;
 
@@ -320,12 +317,11 @@ int step0(ZZ n){
     p = s.next();  
     while (p && p < 2000) {
         if ((n % p) == 0){
-            // cout << p << " divides " << n << '\n';
-            return (1 + (n == p)); // 1: composite
-        }                          // 2: prime
+            return (1 + (n == p)); 
+        } 
         p = s.next();              
     }
-    return 0; // 0: continue
+    return 0; 
 }
 
 /* Step 1:
@@ -358,16 +354,16 @@ int step1(ZZ n){
 
     while(b<log_2000_n){
 
-        B = 1.0/b;    // pow needs both args RR
-        A = pow(N,B); // A is b-th root of N
-        if((A - to_RR(FloorToZZ(A)))==0.0){ // A an int?
-            if(power(FloorToZZ(A),b) == n)  // A^b==n?
-                return 1; // 1: composite
+        B = 1.0/b;    
+        A = pow(N,B); 
+        if((A - to_RR(FloorToZZ(A)))==0.0){ 
+            if(power(FloorToZZ(A),b) == n)  
+                return 1;
         }
         b++;
     }
 
-    return 0; // 0: ??
+    return 0; 
 
 }
 
@@ -389,8 +385,7 @@ long step2(ZZ n){
     for(r=2;;r++){
         if(gcd(n,r)==1){
             if(order(n,r) > k){
-                // cout << "Step 2: r = " << r << '\n';
-                return r; // result
+                return r; 
             }
         }
     }
@@ -412,8 +407,8 @@ int step3(ZZ n, long r){
     long a;
 
     for(a=2002;++a<r;){
-        if ( (gcd(n,a)%n)>1 ) // if 1 < (a,n) < n
-            return 1; // 1: composite
+        if ( (gcd(n,a)%n)>1 ) 
+            return 1; 
     }
     
     return 0;
@@ -427,8 +422,8 @@ int step3(ZZ n, long r){
 
 int step4(ZZ n, long r){
     if(n <= r)
-        return 1; // 1: prime
-    return 0;     // 0: ??
+        return 1;
+    return 0;
 }
 
 /* Step 5:
@@ -465,33 +460,29 @@ int step5(ZZ n, long r){
     ZZ l;
     long a;
 
-    NTL::ZZ_p::init(n); // Initializes modulus to n
-                        // so we are working over Z_n.
+    NTL::ZZ_p::init(n); 
+                       
 
-    ZZ_pX polymod(r,1); // polymod = 1*x^r
-    polymod -=1 ;       // polymod = x^r - 1
-                        // Here we define what will
-                        // be the modulus.
+    ZZ_pX polymod(r,1); 
+    polymod -=1 ;       
 
-    ZZ_pXModulus mod(polymod); // mod is now a modulus.
+    ZZ_pXModulus mod(polymod); 
 
-    ZZ_pX RHS(1, 1);            // RHS = x
-    PowerMod(RHS, RHS, n, mod); // RHS = x^n in F
+    ZZ_pX RHS(1, 1);
+    PowerMod(RHS, RHS, n, mod);
     
     l = FloorToZZ(sqrt(to_RR(phi(r)))*NumBits(n));
-                        // l is limit of the for loop
 
     for(a=1; a<=l; a++){
-        ZZ_pX LHS(1,1); // LHS = x
-        LHS += a;       // LHS = x + a
-        PowerMod(LHS,LHS,n,mod); // LHS = (x+a)^n in F
-        LHS -= a;       // LHS = (x+a)^n - a;
-        if(LHS != RHS)  //     (x+a)^n - a != x^n
-                        // iff (x+a)^n != x^n + a
-          return 1;     // 1: composite
+        ZZ_pX LHS(1,1); 
+        LHS += a;       
+        PowerMod(LHS,LHS,n,mod); 
+        LHS -= a;       
+        if(LHS != RHS)  
+          return 1;     
     }
 
-    return 0; // 0: ??
+    return 0;
 }
 
 /* Step 6:
@@ -501,5 +492,5 @@ int step5(ZZ n, long r){
  */
 
 int step6(){
-    return 1; // 1: prime
+    return 1;
 }
