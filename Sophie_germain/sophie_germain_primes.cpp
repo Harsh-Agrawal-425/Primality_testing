@@ -117,7 +117,7 @@ int main() {
         std::ofstream outfile("sophie_germain_primes.csv");
         outfile << "Start_Timestamp,End_Timestamp,Prime,Bit_Length_Prime,2i+1,Bit_Length_2i+1\n";
 
-        const unsigned long long LIMIT = 500; // i such that 2*i+1 <= 1e8
+        const unsigned long long LIMIT = 500;
         for (unsigned long long i = 2; i <= LIMIT; ++i) {
             auto start = std::chrono::system_clock::now();
 
